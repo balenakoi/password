@@ -6,6 +6,6 @@ if(isset($_POST['cle']) AND $_POST['cle'] == 'karashin')  // if the password is 
    <?php
  }
  else {
-   echo "le mot de pass est incorrect";
+   header('Location: info.php');
  }
 ?>
